@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>농구선수</h1>
+    <h2>kbl</h2>
+    
+        <script>
+            players = ["김선형", "최부경", "오재현", "허일영", "최성원", "최원혁", "최준용", "양우섭", "자밀 워니", "허웅", "허훈", "이정현", "문성곤","이관희"];
+            img = ["김선형.jpg", "최부경.jpg", "오재현.jpg", "허일영.jpg", "최성원.jpg", "최원혁.jpg", "최준용.jpg", "양우섭.jpg", "자밀 워니.jpg", "허웅.jpg", "허훈.jpg", "이정현.jpg", "문성곤.jpg", "이관희.jpg"];
+
+            var i = 0;
+            while(i < players.length){
+                document.write('<li><a href = "https://ko.wikipedia.org/wiki/' + players[i] + '">' + players[i] + '</a></li>');
+                document.write('<li><img src ="' + players[i] + '.jpg" alt="html image"' + '</li>');
+        
+            i = i + 1;
+            }
+           
+            </script>
+
+</body>
+</html>
